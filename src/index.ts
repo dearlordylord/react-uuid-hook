@@ -20,7 +20,7 @@ const useUuid = <V extends Version = DefaultVersion>(version: V | DefaultVersion
     const refresh = useCallback(() => {
       setUuid(generate(args));
     }, args);
-    return [uuid, refresh] as const
+    return [uuid, refresh] as const;
   }
 };
 
