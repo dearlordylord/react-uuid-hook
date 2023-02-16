@@ -55,4 +55,4 @@ The arguments of each are the same as the [uuid](https://www.npmjs.com/package/u
 
 ## License
 
-[MIT](./LICENSE.md)
+[MIT](./LICENSE)

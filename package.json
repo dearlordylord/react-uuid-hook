@@ -1,6 +1,14 @@
 {
+  "name": "react-uuid-hook",
+  "description": "React hook to generate a unique uuid",
   "version": "0.0.1",
-    "name": "react-uuid-hook",
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "type": "module",
+  "files": ["dist", "LICENSE", "README.md", "package.json"],
   "devDependencies": {
     "@types/react": ">=16.8.0",
     "@types/uuid": "^9.0.0",
