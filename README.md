@@ -21,7 +21,7 @@ npm install react-uuid-hook
 ## Usage
 
 ```tsx
-import useUuid from 'react-uuid-hook';
+import useUuid from "react-uuid-hook";
 
 const Component = () => {
   const [uuid] = useUuid();
@@ -33,7 +33,7 @@ const Component = () => {
 ## Refresh
 
 ```tsx
-import useUuid from 'react-uuid-hook';
+import useUuid from "react-uuid-hook";
 
 const Component = () => {
   const [uuid, refreshUuid] = useUuid();

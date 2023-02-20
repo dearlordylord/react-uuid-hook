@@ -5,15 +5,26 @@
   "scripts": {
     "build": "tsc"
   },
-  "keywords": ["react", "uuid", "hook", "idempotency"],
+  "keywords": [
+    "react",
+    "uuid",
+    "hook",
+    "idempotency"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "type": "module",
-  "files": ["dist", "LICENSE", "README.md", "package.json"],
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
   "devDependencies": {
     "@types/react": ">=16.8.0",
     "@types/uuid": "^9.0.0",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "prettier": "^2.8.4"
   },
   "peerDependencies": {
     "react": ">=16.8.0"
