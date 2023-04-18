@@ -1,16 +1,28 @@
 {
   "name": "react-uuid-hook",
   "description": "React hook to generate a unique uuid",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "build": "tsc"
   },
   "keywords": [
     "react",
     "uuid",
+    "id",
     "hook",
+    "hooks",
     "idempotency"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Firfi/react-uuid-hook.git"
+  },
+  "author": "Igor Loskutov <igor@loskutoff.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Firfi/react-uuid-hook/issues"
+  },
+  "homepage": "https://github.com/Firfi/react-uuid-hook#readme",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "type": "module",
