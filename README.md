@@ -47,11 +47,23 @@ const Component = () => {
 };
 ```
 
-## Arguments
+## Versions
 
-The functions exported are useUuidV1, useUuidV3, useUuidV4, useUuidV5. Default export is useUuidV4.
+The library exports hooks for all UUID versions:
 
-The arguments of each are the same as the [uuid](https://www.npmjs.com/package/uuid) package same generators.
+- **useUuidV4** (default) - Random UUID generation
+- **useUuidV5** - Deterministic UUID generation (requires namespace and name)
+- useUuidV3 - Deterministic UUID generation with MD5 (requires namespace and name)
+- useUuidV1 - Timestamp-based UUID generation
+
+### Arguments
+
+The arguments for each hook match the [uuid](https://www.npmjs.com/package/uuid) package generators:
+
+- v4: No arguments required (random)
+- v5: `(name: string, namespace: string | Uint8Array)` - deterministic based on name and namespace
+- v3: `(name: string, namespace: string | Uint8Array)` - deterministic with MD5
+- v1: Optional node and clockseq arguments
 
 ## License
 
